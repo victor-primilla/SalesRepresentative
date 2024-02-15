@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../stylesheets/default.css">
+    <link rel="stylesheet" 
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" 
+    crossorigin="anonymous">
+</head>
+<body class="d-flex flex-column justify-content-between bg-dark">
+    <header><!--HEADER NAVBAR-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light p-0 pl-2 fixed-top">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="../imgs/vs_40.png" width="30" height="30" class="d-inline-block align-top" alt="">
+                    <p class="lead mb-0 font-weight-normal" style="font-size: medium;">REPRESENTAÇÕES</p>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="btn btn-outline-dark font-weight-light lead border-0 rounded-0" href="../#section-chamada" style="font-size: medium;">
+                            Inicío</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-outline-dark font-weight-light lead border-0 rounded-0" href="../#section-representadas" style="font-size: medium;">
+                            Representadas</a>
+                    </li>
+                    <li class="nav-item lead">
+                        <a class="btn btn-outline-dark font-weight-light lead border-0 rounded-0" href="../#section-sobre" style="font-size: medium;">
+                            Sobre</a>
+                    </li>
+                    <li class="nav-item lead">
+                        <a class="btn btn-outline-dark font-weight-light lead border-0 rounded-0" href="../#section-links" style="font-size: medium;">
+                            Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class=" bg-dark mt-5 pt-3 py-4 d-flex justify-content-around flex-wrap"><!---->
+        <div class="card bg-dark col-12 col-sm-12 col-md-8 col-lg-8 align-items-center border-0">
+            <div class="p-1 rounded-circle bg-dark shadow-lg pt-3">
+                <img src="../imgs/suplementos_300x300_nobg.png" class="p-1"  alt="logotipo empresa power fuel suplementos" style="width: 10em;">
+            </div>
+            <h3 class="m-4 lead text-light  container-fluid text-center" style="font-size: xx-large;"> POWER FUEL SUPLEMENTOS</h3>                
+            <p class="m-4 lead container-fluid text-light" style="font-size: x-large;">
+                Há mais de uma década, a Power Fuel Suplementos é líder no mercado de suplementos nutricionais, oferecendo produtos de alta qualidade e atendimento personalizado. Nossa missão é impulsionar sua jornada de saúde e bem-estar, fornecendo os recursos necessários para que você alcance seu máximo potencial. Junte-se a nós e descubra o poder dos suplementos para transformar sua vida.
+            </p>
+        </div>
+        <div class="bg-dark col-12 col-sm-12 col-md-4 col-lg-4 d-flex flex-column align-items-center border-0 container-fluid">
+            <div class="bg-dark card my-3 col-auto p-1 align-items-center btn btn-outline-info rounded  shadow" id="catalogo">
+                <div class="p-3">
+                <img src="../imgs/transparente.png" class="img-fluid" style="width: 8rem; height: 8rem;" alt="" id="img-catalogo">
+                </div>
+                <h2 class="lead text-center" style="font-size: x-large;">CATÁLOGO</h2>
+            </div>
+            <div class="bg-dark card my-3 col-auto p-1 align-items-center btn btn-outline-info rounded  shadow" id="carrinho">
+                <div class="p-3">
+                <img src="../imgs/transparente.png" class="img-fluid" style="width: 8rem; height: 8rem;" alt="" id="img-carrinho">
+                </div>
+                <h2 class="lead text-center" style="font-size: x-large;">PEDIDO</h2>
+            </div>        
+        </div>
+        <div class="my-5 container-fluid flex-grow d-flex justify-content-around flex-wrap">
+            <h3 class="lead text-light flex-grow container-fluid text-center" style="font-size: xx-large;"> LOCALIZAÇÃO</h3>
+            <iframe class="p-3 col-12 col-sm-12 col-md-8 col-lg-8" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d467690.14386865456!2d-46.92495573160536!3d-23.682063556622076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce448183a461d1%3A0x9ba94b08ff335bae!2zU8OjbyBQYXVsbywgU1A!5e0!3m2!1spt-BR!2sbr!4v1707882920253!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+            <aside class="p-3 col-12 col-sm-12 col-md-4 col-lg-4">
+                
+                <p class="lead text-light">
+                    São Paulo - SP, Brasil
+                </p>
+                <p class="lead text-light">
+                    Conheça nossa unidade em física em São Paulo 
+                </p>
+            </aside>    
+        </div>
+    </section>
+    <footer class="text-light text-center" style="background-color: #272727;">
+        <p class="py-2 m-0">&copy; 2024 Victor Primilla & PrimeiraMenteXD. Todos os direitos reservados.</p>
+    </footer>   
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>

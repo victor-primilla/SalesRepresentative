@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>REPRESENTAÇÕES</title>
+    <link rel="stylesheet" href="stylesheets/default.css">
     <link rel="stylesheet" 
     href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
     integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" 
     crossorigin="anonymous">
 </head>
-<body>   
+<body class="bg-dark">   
     <header><!--HEADER NAVBAR-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light p-0 pl-2 fixed-top">
+        <nav class="navbar navbar-expand-md navbar-light bg-light p-0 pl-2 fixed-top">
             <a class="navbar-brand d-flex align-items-center" href="#">
                 <img src="imgs/vs_40.png" width="30" height="30" class="d-inline-block align-top" alt="">
                     <p class="lead mb-0 font-weight-normal" style="font-size: medium;">REPRESENTAÇÕES</p>
@@ -38,21 +39,22 @@
         </nav>
     </header>
     <main>    
-        <section id="section-chamada" class="mt-5 p-3 container-fluid d-flex justify-content-around flex-wrap align-items-center"><!--SECTION CHAMADAS-->
-            <div class="card col-12 col-sm-8 col-md-6 col-lg-4 m-5 p-2 border-0  shadow">
+        <section id="section-chamada" class="bg-light mt-3 p-2 container-fluid d-flex justify-content-around flex-wrap align-items-center"><!--SECTION CHAMADAS-->
+            <div class="card col-12 col-sm-8 col-md-5 col-lg-4 m-5 p-2 border-0  shadow">
                 <h1 class="lead font-weight-normal" style="font-size: xxx-large;">EXPLORE</h1>
                 <p class="h4 font-weight-light">
                     E descubra mais sobre <br> Victor Santos Representações
                 </p>
             </div>
-            <div class="card col-12 col-sm-8 col-md-6 col-lg-4 bg-dark m-4 p-2 rounded  shadow-lg d-flex flex-column align-items-center">
+            <div class="card col-12 col-sm-8 col-md-5
+             col-lg-4 bg-dark m-4 p-2 rounded  shadow-lg d-flex flex-column align-items-center">
                     <p class="h4 text-center text-white m-3 font-weight-light">Saiba como posso agregar ao seu negócio.</p>
                     <button type="button" class= "btn btn-outline-warning text-center" style="width: max-content;">VAMOS CONVERSAR!</button>
             </div>
         </section>
-        <section id="section-representadas" class="p-0 container-fluid d-flex justify-content-around flex-wrap bg-dark "><!--SECTION REPRESENTADAS-->
+        <section id="section-representadas" class="p-3 container-fluid d-flex justify-content-around flex-wrap bg-dark "><!--SECTION REPRESENTADAS-->
             <h1 class="mt-5 lead font-weight-normal container-fluid text-center text-light" style="font-size: xx-large;">REPRESENTADAS</h1>
-            <div class="card col-11 col-sm-8 col-md-5 col-lg-3 m-4 my-4 rounded shadow-lg bg-dark" >
+            <a href="power-fuel-suplementos/" class="card col-11 col-sm-8 col-md-3 col-lg-3 m-4 my-4 rounded shadow-lg bg-dark warning text-decoration-none" >
                 <div class="card-body d-flex flex-column align-items-center">
                     <img class="card-img-top  rounded center" src="imgs/suplementos_300x300_nobg.png" style="width: 150px; height: 150px;" alt="Imagem de capa do card">
                     <p class="my-2 lead font-weight-normal text-center text-warning d-flex flex-grow-1 align-items-center" style="font-size: larger;">
@@ -61,8 +63,8 @@
                         Produtos de alta qualidade, potencializando seus objetivos de saúde e condicionamento físico. 
                     </p>
                 </div>
-            </div>
-            <div class="card col-11 col-sm-8 col-md-5 col-lg-3 m-4 my-4 rounded-0 shadow-lg bg-dark">
+            </a>
+            <div class="card col-11 col-sm-8 col-md-3 col-lg-3 m-4 my-4 rounded shadow-lg bg-dark warning">
                 <div class="card-body d-flex flex-column align-items-center">
                     <img class="card-img-top  rounded" src="imgs/suco_300x300_nobg.png" style="width: 150px; height: 150px;" alt="Imagem de capa do card">
                     <p class="my-2 lead font-weight-normal text-center text-warning d-flex flex-grow-1 align-items-center" style="font-size: larger">Native Fruits Sucos Integrais</p>
@@ -71,7 +73,7 @@
                     </p>
                 </div>
             </div>
-            <div class="card col-11 col-sm-8 col-md-5 col-lg-3 m-4 my-4 rounded shadow-lg bg-dark">
+            <div class="card col-11 col-sm-8 col-md-3 col-lg-3 m-4 my-4 rounded shadow-lg bg-dark warning">
                 <div class="card-body d-flex flex-column align-items-center">
                     <img class="card-img-top  rounded" src="imgs/natural_300x300_nobg.png" style="width: 150px; height: 150px;" alt="Imagem de capa do card">
                     <p class="my-2 lead font-weight-normal text-center text-warning d-flex flex-grow-1 align-items-center" style="font-size: larger">Bio Harmony Produtos Naturais</p>
@@ -81,13 +83,13 @@
                 </div>
             </div>  
         </section>
-        <section id="section-sobre" class="p-4 container-fluid d-flex justify-content-around flex-wrap"><!--SECTION QUEM SOU EU-->
+        <section id="section-sobre" class="p-4 container-fluid d-flex justify-content-around flex-wrap bg-light"><!--SECTION QUEM SOU EU-->
             <h1 class="mt-5 lead container-fluid text-center font-weight-normal" style="font-size: xx-large">
                 QUEM SOU EU</h1>
-            <div class="p-4 my-5 card col-11 col-sm-12 col-md-10 col-lg-8 shadow-lg bg-light d-flex flex-row flex-wrap justify-content-around align-items-center" >
+            <div class="p-4 my-5 card col-11 col-sm-12 col-md-10 col-lg-10 shadow-lg bg-light d-flex flex-row flex-wrap justify-content-around align-items-center" >
                 <p class="my-2 lead font-weight-normal text-center container-fluid" style="color: #FF7F2A; font-size: x-large;">
                     VICTOR SANTOS</p>
-                <img class="m-3 card-img-top  rounded-circle center" src="imgs/foto-perfil.jpg" alt="Imagem de capa do card" style="width: 180px; height: 180px;">
+                <img class="m-3 card-img-top  rounded-circle center" src="imgs/foto-perfil.jpg" alt="Imagem de capa do card" style="width: 10em;">
                 <div class="card-body d-flex justify-content-around flex-column" style="width: 70%;">
                     <p class="lead text-secundary">
                         Há mais de 5 anos atuando com paixão e dedicação na área, sou um representante comercial de vendas comprometido em criar oportunidades e construir conexões significativas. Durante minha jornada, desenvolvi uma expertise sólida em entender as necessidades dos clientes e proporcionar soluções que impulsionam o sucesso empresarial. Minha abordagem centrada no cliente e minha experiência em negociações estratégicas me capacitam a estabelecer parcerias duradouras. Estou pronto para levar sua empresa ao próximo nível, combinando conhecimento, compromisso e uma ética de trabalho impecável.
@@ -184,12 +186,13 @@
             </div>
         </section>
     </main>
-    <footer class="text-light text-center py-1" style="background-color: #272727;">
-        <div class="container">
-          <p class="pt-2">&copy; 2024 Victor Primilla & PrimeiraMenteXD. Todos os direitos reservados.</p>
+    <footer class="text-light text-center" style="background-color: #272727;">
+        <div class="container-fluid py-2">
+            <a href="login/" class="text-decoration-none text-light">
+                &copy; 2024 Victor Primilla & PrimeiraMenteXD. Todos os direitos reservados.
+            </a>            
         </div>
-    </footer>
-      
+    </footer>  
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>

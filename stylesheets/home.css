@@ -1,0 +1,109 @@
+body{
+    background-color: #fdfdfd;
+    background-image: url('../imgs/background.jpg');
+    background-size: 80%;
+    background-position: top center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    overflow-y: scroll;
+}
+#header{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 3px;
+    width: 100vw;
+    background-color: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(4px) saturation(120%);}
+    #container_menu_icon{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0.2em;
+        width: 30px;
+        height: 28px;
+        background-color: #dddddd;
+        border-radius: 5px;}
+        .menu_icon_line{
+            width: 80%;
+            height: 3px;
+            background-color: #373737;
+            border-radius: 3px;}
+    #container_title{
+        margin: auto;
+        display: flex;
+        align-items: center;
+        margin-left: auto;}
+        #container_title img{
+            margin: 0 10px;
+            width: 30px;
+            height: 30px;}
+        .title{font-size: larger}
+main{width: 100vw;}
+    #section_chamada{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 100vw;
+        margin-top: 160px;
+        /*background-color: rgba(143, 188, 143, 0.644);*/}
+        /*CLASS*/
+        .p_chamada{font-size: x-large;}
+        #container_chamada_explore{
+            width: 20rem;
+            height: max-content;            
+            padding: 1em;}
+            #h1_chamada{
+                font-family:'Lucida Sans';
+                font-size: xxx-large;} 
+        #container_chamada_conversa{
+            display: flex;
+            width: 20rem;   
+            flex-direction: column;
+            align-items: center;
+            margin-top: 40px;
+            padding: 0.5em;}
+            #p_chamada2{text-align: center;}
+            #container_button{
+                margin-top: 0.5em;
+                box-shadow: 2px 3px 0px black;
+                width: max-content;}
+                #button_chamada{
+                    border: solid 3px #222222;                    
+                    padding: 8px;
+                    background-color: #fd7b4c;
+                    height: 45px;
+                    color: #000;
+                    font-size: medium;
+                    font-weight: lighter;}
+                    #button_chamada:hover{
+                        color: #fff;
+                        background-color: #fa6731;}
+                    #button_chamada:active{
+                        margin: 3px -3px -3px 3px;}
+    #section_representadas{
+        width: 100vw;
+        
+    }
+@media (max-width:800px) {
+    body{
+        background-size: 150%;        
+    }
+    #header{
+        justify-content: flex-start;
+        padding: 4px 3px;
+    }
+        #container_menu_icon{
+            width: 20px;
+            height: 18px;
+        }
+        #container_title{margin:0;}
+            #container_title img{
+                margin: 0;
+            }
+            .title{
+                font-size: 0.7em;
+                margin: 0 5px;
+            }
+}
